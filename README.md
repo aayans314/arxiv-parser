@@ -36,7 +36,7 @@ python src/pipeline.py
 ### Architecture
 - **Data Source**: ArXiv queried via Python API
 - **Ingestion**: Docling (PyMuPDF/pdfium) 
-- **Extraction**: Pydantic / OpenAI `gpt-4o-mini`
+- **Extraction**: Pydantic / Deepseek `deepseek-chat`
 - **Frontend**: React / Vite / TailwindCSS
 
 - Aayan Shah

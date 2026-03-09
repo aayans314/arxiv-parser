@@ -4,7 +4,7 @@
 ### Overview
 This repository contains a specialized data pipeline built for my research in the state space layer for an optoelectronic neural network. It ingests messy, unstructured scientific data (specifically physics and optics PDFs from arXiv containing complex tables and mathematical equations) and translates them into structured, reliable JSON schemas using a combination of OCR vector analysis and Large Language Models.
 
-While built specifically for this research case, the pipeline's architecture is broadly applicable to large-scale unstructured data extraction tasks (similar to platforms like Savvyn).
+While built specifically for this research case, the pipeline's architecture is broadly applicable to large-scale unstructured data extraction tasks.
 
 ### Key Objectives Achieved
 1. **Automated Ingestion:** Built `fetcher.py` and `ingester.py` utilizing the robust Meta/IBM `Docling` toolkit to parse complex PDFs into machine-readable markdown.
@@ -39,5 +39,7 @@ python src/pipeline.py
 - **Extraction**: Pydantic / Deepseek `deepseek-chat`
 - **Frontend**: React / Vite / TailwindCSS
 
-- Aayan Shah
-  CS + Physics @ Colby
+---
+
+##### **Aayan Shah**
+##### CS + Physics @ Colby

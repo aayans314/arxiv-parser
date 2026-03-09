@@ -38,3 +38,6 @@ python src/pipeline.py
 - **Ingestion**: Docling (PyMuPDF/pdfium) 
 - **Extraction**: Pydantic / OpenAI `gpt-4o-mini`
 - **Frontend**: React / Vite / TailwindCSS
+
+- Aayan Shah
+  CS + Physics @ Colby
